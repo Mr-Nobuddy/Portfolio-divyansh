@@ -14,7 +14,7 @@ const Footer = () => {
             <p className='text-white-200 md:mt-10 my-5 text-center'>
                 React out to me today and lets discuss how I can help you achieve your goals. 
             </p>
-            <a href='mailto:divyanshkatiyar13@gmail.com'>
+            <a href='https://www.linkedin.com/in/divyansh-katiyar-b5895a214/'>
                 <MagicButton title='Connect with me' icon={<FaLocationArrow/>} position='right'/>
             </a>
         </div>

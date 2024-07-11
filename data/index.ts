@@ -69,39 +69,101 @@ export const gridItems = [
   },
 ];
 
+export const techStack1 = [
+  {
+    id:1,
+    name:"ReactJS",
+    image:"/re.svg"
+  },
+  {
+    id:2,
+    name:"NextJS",
+    image:"/next.svg"
+  },
+  {
+    id:3,
+    name:"ExpressJS",
+    image:"/icons8-express-js-64.png"
+  },
+  {
+    id:4,
+    name:"NodeJS",
+    image:"/icons8-nodejs.svg"
+  },
+  {
+    id:5,
+    name:"Javascript",
+    image:"/icons8-javascript.svg"
+  },
+  {
+    id:6,
+    name:"Typescript",
+    image:"/icons8-typescript.svg"
+  },
+  {
+    id:7,
+    name:"MongoDB",
+    image:"/mongodb.png"
+  }
+]
+
+export const techStack2 = [
+  {
+    id:1,
+    name:"MySQL",
+    image:"/icons8-mysql-64.png"
+  },
+  {
+    id:2,
+    name:"Tailwind CSS",
+    image:"/icons8-tailwind-css.svg"
+  },
+  {
+    id:3,
+    name:"HTML",
+    image:"/icons8-html.svg"
+  },
+  {
+    id:4,
+    name:"CSS",
+    image:"icons8-css.svg"
+  }
+]
+
+
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Fitness Web App",
+    des: "No limit fitness is a fitness tracking web app which tracks your calorie intake an calories burned",
+    img: "/fitness.png",
+    iconLists: ["/re.svg", "/mui.png" ,"/icons8-javascript.svg", "/icons8-nodejs.svg", "/icons8-mysql-64.png"],
+    link: "https://github.com/Mr-Nobuddy/Fitness-App",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Content AI",
+    des: "An AI powered content writing digital marketing tool",
+    img: "/content.png",
+    iconLists: ["/re.svg", "/mui.png", "/icons8-javascript.svg", "/icons8-nodejs.svg", "/icons8-mysql-64.png"],
+    link: "This was a Internship project so it is private",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Portfolio",
+    des: "A portfolio to show case my skills and my projects",
+    img: "/porfolio.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg"],
+    link: "https://portfolio-divyansh-nine.vercel.app/",
   },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
-  },
+  // {
+  //   id: 4,
+  //   title: "Animated Apple Iphone 3D Website",
+  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+  //   img: "/p4.svg",
+  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+  //   link: "/ui.apple.com",
+  // },
 ];
 
 export const testimonials = [

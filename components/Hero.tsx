@@ -3,8 +3,10 @@ import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
+import { FlipWords } from "./ui/FlipWords";
 
 const Hero = () => {
+  const words = ['ReactJS','NextJS','ExpressJS','NodeJS','Typescript','Javascript'];
   return (
     <div className="pb-20 pt-36">
       <div>
@@ -27,14 +29,17 @@ const Hero = () => {
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
             Dynamic web magic with nextJS
           </h2>
-          <TextGenerateEffect
+          {/* <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
             words="Transforming Concepts into Seamless User Experiences"
-          />
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl ">
+          /> */}
+          <h1 className="text-center text-[40px] md:text-5xl lg:text-6xl my-10 font-bold tracking-wide">
+            Developing dynamic and eye catching websites with <FlipWords words={words} />
+          </h1>
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi I am Divyansh, a React & NextJS developer based in India
           </p>
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}

@@ -4,6 +4,8 @@ import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
+import TechStack from "@/components/TechStack";
+import TimeZone from "@/components/TimeZone";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
 import Image from "next/image";
@@ -15,10 +17,12 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems}/>
         <Hero/>
-        <Grid />
+        {/* <Grid /> */}
+        <TimeZone/>
+        <TechStack/>
         <RecentProjects/>
         {/* <Experience/> */}
-        <Approach/>
+        {/* <Approach/> */}
         <Footer/>
       </div>
     </main>
