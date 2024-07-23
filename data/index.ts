@@ -267,13 +267,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    src:"https://github.com/Mr-Nobuddy"
   },
   {
     id: 2,
     img: "/twit.svg",
+    src:"https://x.com/KatiyarDiv33171"
   },
   {
     id: 3,
     img: "/link.svg",
+    src:"https://www.linkedin.com/in/divyansh-katiyar-b5895a214/"
   },
 ];
