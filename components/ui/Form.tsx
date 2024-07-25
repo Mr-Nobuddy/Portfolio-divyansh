@@ -10,9 +10,10 @@ import {
 import { cn } from "@/utils/cn";
 import emailjs from "@emailjs/browser";
 import Image from "next/image";
+import { string } from "three/examples/jsm/nodes/Nodes.js";
 
 export function Form() {
-  const ref = useRef();
+  const ref = useRef<any>();
   const [success, setSuccess] = useState<boolean>(false);
   const [loader, setLoader] = useState<boolean>(true);
 
@@ -59,7 +60,7 @@ export function Form() {
                 width={300}
                 height={300}
               /> */}
-              <iframe src="https://giphy.com/embed/xTkcEQACH24SMPxIQg" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/hand-bored-waiting-xTkcEQACH24SMPxIQg">via GIPHY</a></p>
+              <iframe src="https://giphy.com/embed/xTkcEQACH24SMPxIQg" width="280" height="280" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/hand-bored-waiting-xTkcEQACH24SMPxIQg">via GIPHY</a></p>
             </div>
           )}
         </div>
