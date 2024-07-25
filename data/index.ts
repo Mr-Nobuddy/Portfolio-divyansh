@@ -140,14 +140,14 @@ export const projects = [
     iconLists: ["/re.svg", "/mui.png" ,"/icons8-javascript.svg", "/icons8-nodejs.svg", "/icons8-mysql-64.png"],
     link: "https://github.com/Mr-Nobuddy/Fitness-App",
   },
-  {
-    id: 2,
-    title: "Content AI",
-    des: "An AI powered content writing digital marketing tool",
-    img: "/content.png",
-    iconLists: ["/re.svg", "/mui.png", "/icons8-javascript.svg", "/icons8-nodejs.svg", "/icons8-mysql-64.png"],
-    link: "This was a Internship project so it is private",
-  },
+  // {
+  //   id: 2,
+  //   title: "Content AI",
+  //   des: "An AI powered content writing digital marketing tool",
+  //   img: "/content.png",
+  //   iconLists: ["/re.svg", "/mui.png", "/icons8-javascript.svg", "/icons8-nodejs.svg", "/icons8-mysql-64.png"],
+  //   link: "This was a Internship project so it is private",
+  // },
   {
     id: 3,
     title: "Portfolio",

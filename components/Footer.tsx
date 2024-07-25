@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useRef } from "react";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@/data";
+import emailjs from "@emailjs/browser";
+import { Form } from "./ui/Form";
 
 const Footer = () => {
   return (
@@ -9,22 +11,25 @@ const Footer = () => {
       {/* <div className='w-full absolute left-0 -bottom-72 min-h-96'>
             <img src='/footer-grid.svg' alt='grid' className='w-full h-full opacity-50'/>
         </div> */}
-      <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level
+      <div className="flex flex-col items-center gap-y-5">
+        <h1 className="heading lg:max-w-[65vw] tracking-wider">
+          Seeking a Talented <span className="text-purple">Developer</span> to Enhance Your Team? Get in Touch to
+          Discuss Potential Collaboration!
         </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
+        {/* <p className="text-white-200 md:mt-10 my-5 text-center">
           React out to me today and lets discuss how I can help you achieve your
           goals.
-        </p>
-        <a href="https://www.linkedin.com/in/divyansh-katiyar-b5895a214/">
+        </p> */}
+
+        <Form />
+
+        {/* <a href="https://www.linkedin.com/in/divyansh-katiyar-b5895a214/">
           <MagicButton
             title="Connect with me"
             icon={<FaLocationArrow />}
             position="right"
           />
-        </a>
+        </a> */}
       </div>
 
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">

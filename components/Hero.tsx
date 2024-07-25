@@ -36,8 +36,8 @@ const Hero = () => {
           <h1 className="text-center text-[40px] md:text-5xl lg:text-6xl my-10 font-bold tracking-wide">
             Developing dynamic and eye catching websites with <FlipWords words={words} />
           </h1>
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi I am Divyansh, a React & NextJS developer based in India
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-3xl">
+            Hi I am <span className="font-bold text-purple text-4xl">Divyansh</span>, a <span className="text-purple">MERN</span> Stack and <span className="text-purple">NextJS</span> Developer
           </p>
           <a href="#projects">
             <MagicButton
