@@ -37,7 +37,7 @@ const Hero = () => {
             Developing dynamic and eye catching websites with <FlipWords words={words} />
           </h1>
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-3xl">
-            Hi I am <span className="font-bold text-purple text-4xl">Divyansh</span>, a <span className="text-purple">MERN</span> Stack and <span className="text-purple">NextJS</span> Developer
+            Hi I am <span className="font-bold text-purple">Divyansh</span>, a <span className="text-purple">MERN</span> Stack and <span className="text-purple">NextJS</span> Developer
           </p>
           <a href="#projects">
             <MagicButton

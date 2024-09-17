@@ -90,21 +90,6 @@ export const techStack1 = [
     name:"NodeJS",
     image:"/icons8-nodejs.svg"
   },
-  {
-    id:5,
-    name:"Javascript",
-    image:"/icons8-javascript.svg"
-  },
-  {
-    id:6,
-    name:"Typescript",
-    image:"/icons8-typescript.svg"
-  },
-  {
-    id:7,
-    name:"MongoDB",
-    image:"/mongodb.png"
-  }
 ]
 
 export const techStack2 = [
@@ -127,6 +112,24 @@ export const techStack2 = [
     id:4,
     name:"CSS",
     image:"icons8-css.svg"
+  }
+]
+
+export const techStack3 = [
+  {
+    id:5,
+    name:"Javascript",
+    image:"/icons8-javascript.svg"
+  },
+  {
+    id:6,
+    name:"Typescript",
+    image:"/icons8-typescript.svg"
+  },
+  {
+    id:7,
+    name:"MongoDB",
+    image:"/mongodb.png"
   }
 ]
 
